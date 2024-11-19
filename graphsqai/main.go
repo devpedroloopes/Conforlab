@@ -147,7 +147,7 @@ const indexTemplate = `
 </style>
 </head>
 <body>
-	<div class="title">Zephyros Resumo dos Formulários</div>
+	<div class="title">Resumo dos Formulários</div>
 	<div class="grid">
 		{{ range . }}
 			<div class="card">

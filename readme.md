@@ -1,21 +1,21 @@
-# Projetos Desenvolvidos na Conforlab Engenharia Ambiental  
+# Projetos Profissionais no Setor Ambiental  
 
-Este repositório contém projetos que desenvolvi durante minha atuação na **Conforlab Engenharia Ambiental LTDA**, com foco na melhoria de processos internos e gestão de dados ambientais.  
+Este repositório reúne projetos desenvolvidos durante minha experiência profissional no mercado, com foco em soluções tecnológicas para a gestão ambiental.  
 
 ## Projetos  
 
 ### 1. **Aguagestao**  
-- **Descrição**: Aplicação desenvolvida em Go para gerenciar os dados da qualidade das amostras de água coletadas de clientes.  
+- **Descrição**: Sistema desenvolvido em Go para gerenciar dados relacionados à qualidade das amostras de água coletadas por clientes de empresas do setor ambiental.  
 - **Funcionalidades**:  
-  - Gestão de clientes e seus dados.  
-  - Acompanhamento interno das análises realizadas.  
+  - Gestão de clientes e suas análises.  
+  - Acompanhamento interno de dados de qualidade.  
 
 ### 2. **Graphsqai**  
-- **Descrição**: Sistema desenvolvido em Go para gerar gráficos que analisam a conformidade (ou não) das amostras de ar coletadas.  
+- **Descrição**: Ferramenta criada em Go para geração de gráficos que demonstram a conformidade ou não conformidade das amostras de ar coletadas.  
 - **Funcionalidades**:  
-  - Visualização gráfica dos dados.  
-  - Apoio à análise e tomada de decisões.  
+  - Geração de gráficos detalhados.  
+  - Suporte à análise e tomada de decisão.  
 
 ---  
 
-Esses projetos foram pensados para otimizar processos e garantir maior eficiência no acompanhamento de dados ambientais pela empresa.  
+Esses projetos refletem a aplicação prática de tecnologias no setor ambiental, com foco em otimizar processos e gerenciar dados de maneira eficiente.  
