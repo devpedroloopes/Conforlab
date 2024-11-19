@@ -1,0 +1,183 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #1e263e;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header input[type="text"], .header select {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #006eb8;
+    background-color: transparent;
+    margin-right: 10px;
+    outline: none;
+    flex: 1;
+    color: #1e263e;
+}
+
+.header select {
+    border-radius: 0;
+}
+
+.header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #1e263e;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.header button:hover {
+    border-bottom: 2px solid #5fb035;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.table-header, .table-row {
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-header {
+    background-color: #ededed;
+    border-bottom: 2px solid #006eb8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.table-header div, .table-row div {
+    flex: 1;
+    padding: 12px;
+    text-align: left;
+}
+
+.table-header:hover {
+    background-color: rgba(127, 238, 93, 0.5);
+}
+
+.table-row:hover {
+    background-color: rgba(127, 238, 93, 0.5);
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+/* Adicionando novas tags para o formulário */
+
+/* Container do formulário */
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15rem;
+}
+
+/* Formulário */
+.form {
+    width: 100%;
+    max-width: 350px;
+    background: none;
+    box-sizing: border-box;
+}
+
+.form h2 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+/* Labels centralizados à esquerda */
+.floating-label {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.floating-label input, .floating-label select {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #00A0D1;
+    outline: none;
+    background-color: transparent;
+    color: #1e263e;
+    font-size: 16px;
+    padding: 12px 0;
+}
+
+.floating-label label {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    font-size: 16px;
+    color: #1e263e;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.floating-label input:focus + label, .floating-label select:focus + label,
+.floating-label input:not(:placeholder-shown) + label,
+.floating-label select:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 0;
+    color: #5FA05B;
+}
+
+/* Botões com ícones */
+.form-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1e263e;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.form-buttons button i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.confirm-button:hover {
+    color: #5FA05B;
+}
+
+.cancel-button:hover {
+    color: #D9534F; 
+}
